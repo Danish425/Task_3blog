@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-section">
+        <a href="#" class="logo">My<span>Blog</span></a>
+        <i class="ri-menu-line" id="menu"></i>
+        <nav class="nav-bar">
+            <a href="#" style="--vlr:1" class="active">Home</a>
+            <a href="#contact-us" style="--vlr:5">ContactUs</a>
+        </nav>
+        <button id="dark-mode-toggle">Dark Mode</button>
+    </header>
+    
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search blogs...">
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="ai.jpeg" alt="Blog Image">
+                <div class="blog-content">
+                    <h2>The Future of AI: How Artificial Intelligence is Reshaping Our World</h2>
+                    <br>
+                    <p>AI is transforming industries at an unprecedented rate. From automation to personalized experiences, this blog explores the future impact of AI on jobs, healthcare, and daily life.</p>
+                    <br>
+                    <br>
+                    <p><strong> Author:</strong> James Anderson | <strong>Date:</strong> Feb 18, 2025</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="cyber.avif" alt="Blog Image">
+                <div class="blog-content">
+                    <h2>Cybersecurity in 2025: How to Stay Ahead of Evolving Threats</h2>
+                    <br>
+                    <p>As cyber threats become more sophisticated, staying secure is a growing challenge. Learn about the latest cybersecurity trends, best practices, and tools to protect your digital presence.</p>
+                    <br>
+                    <br>
+                    <p><strong>Author:</strong> John Doe | <strong>Date:</strong> Feb 18, 2025</p>
+                    </div>
+                 </div>
+                 <div class="blog-card">
+                    <img src="quantum.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <h2> Quantum Computing: Breaking the Limits of Classical Computers</h2>
+                        <br>
+                        <p>Quantum computing is set to revolutionize problem-solving in cryptography, drug discovery, and AI. Learn how companies like Google and IBM are leading this innovation.</p>
+                        <br>
+                        <br>
+                        <p><strong>Author:</strong> Robert Adams | <strong>Date:</strong> Feb 18, 2025</p>
+                        </div>
+                     </div>
+            <a href="single.html">Read More</a>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="company-info">
+                    <h3>MyBlog</h3>
+                    <p>We are dedicated to providing the best solutions for your business needs.</p>
+                    
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123, okhla new delhi</p>
+                        <p><i class="fas fa-phone"></i> +918791253163</p>
+                        <p><i class="fas fa-envelope"></i> info@myblog.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-right">
+                <div class="footer-contact-form" id="contact-us">
+                    <h3>Quick Contact</h3>
+                    <form id="footerContactForm">
+                        <div class="form-group">
+                            <input type="text" id="footer-name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="footer-email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="footer-message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>&copy; 2023 Company Name. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
